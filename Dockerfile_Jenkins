@@ -1,0 +1,6 @@
+FROM jenkins:latest
+USER root
+RUN apt-get update
+RUN apt-get install -y python-pip
+RUN apt-get install -y net-tools
+RUN apt-get install -y ssh
